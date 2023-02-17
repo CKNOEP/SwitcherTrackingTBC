@@ -163,8 +163,8 @@ function SwitcherTracking:OnInitialize()
 		SwitcherTrackingLDB = SwitcherTrackingLDB:NewDataObject("SwitcherTracking", {
 		type = "launcher",
 		text = "SwitcherTracking",
-		--icon = "Interface\\Icons\\spell_shaman_giftearthmother",
-		icon = "Interface\\Icons\\Spell_nature_lightning",
+		icon = "Interface\\Icons\\ability_townwatch",
+		--icon = "Interface\\Icons\\Spell_nature_lightning",
 		OnClick = 	function(_, button)                
 --print(button)
 					if button == "LeftButton" then 
